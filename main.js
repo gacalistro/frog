@@ -3,7 +3,7 @@ let indexFacts;
 
 // FETCH JSON
 async function getFrogs() {
-  return await fetch("/frogs.json").then((data) => data.json());
+  return await fetch("./frogs.json").then((data) => data.json());
 }
 
 // GET AND SHOW RANDOM PICURES
